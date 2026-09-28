@@ -57,7 +57,7 @@
   // Paste your Google Apps Script Web App URL between the quotes so EVERY test taker
   // reports to your sheet automatically (no per-device setup needed).
   // Example: 'https://script.google.com/macros/s/AKfycb.../exec'
-  const DEFAULT_SHEETS_URL = '';
+  const DEFAULT_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbzuuhVxF-La4znw-u-6yK9Ws8qg-1I5I9Utu6GmVSptf8gj4MbbjaLWEYAqqsEl_dwmoA/exec';
 
   try {
     const savedName = localStorage.getItem(LS_NAME_KEY);
